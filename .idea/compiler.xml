@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="register-center" />
+        <module name="service-hello" />
+        <module name="service-hi" />
+        <module name="service-ribbon" />
+        <module name="springcloud" />
+        <module name="springcloud-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="register-center" target="1.8" />
+      <module name="service-hello" target="1.8" />
+      <module name="service-hi" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="springcloud-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
